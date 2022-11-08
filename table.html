@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Boxes Order Form</title>
+    <title>Activity - FORMS and TABLES</title>
 </head>
 <body>
-    
-    <table border="1" style="border: 1px solid black; padding: 20px; width: 25%">
-        <thead>
-            <tr>
-                <th colspan="4">Name:</th>
-                <th colspan="4">Email:</th>
-                <th colspan="4">Address:</th>
-            </tr>
-        </thead>
-    table
-    </body>
+    <h1>Boxes Order Form</h1>
+    <form style="border: 1px solid black; padding: 20px; width: 25%">
+        <div> 
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+        </div>
+        <div>
+                    <label for="Email">Email:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+        </div>
+        <div>
+                    <label for="Address">Address:</label>
+                    <textarea cols="20" rows="3"></textarea>
+        </div> 
+    </form>
+
+    <!-- for second activity-->
+    <table border="1">
     <br>
     <br>
-        <tbody>
             <!-- first row-->
             <tr>
                 <th><strong>Product</strong>
@@ -31,52 +37,76 @@
             <tr>
                 <td>EconoBox</td>
                 <td>LB100</td>
+                <td>
+                    <input type="number">
+                </td>
                 <td>R5</td>
-                <td></td>
-                <td>0</td>
+                <td>
+                    <input type="number" value="0">
+                </td>
             </tr>
              <!--3rd row-->
             <tr>
                 <td>Standard Box</td>
                 <td>LB200</td>
+                <td>
+                    <input type="number">
+                </td>
                 <td>R10</td>
-                <td></td>
-                <td>0</td>
+                <td>
+                    <input type="number" value="0">
+                </td>
             </tr>
             <!--4th row-->
             <tr>
                 <td>Premium Box</td>
                 <td>LB300</td>
+                <td>
+                    <input type="number">
+                </td>
                 <td>R15</td>
-                <td></td>
-                <td>0</td>
+                <td>
+                    <input type="number" value="0">
+                </td>
             </tr>
             <!--5th row-->
             <tr>
                 <td>Deluxe Box</td>
                 <td>LB400</td>
+                <td>
+                    <input type="number">
+                </td>
                 <td>R20</td>
-                <td></td>
-                <td>0</td>
+                <td>
+                    <input type="number" value="0">
+                </td>
             </tr>
             <!--6th row-->
              <tr>
                 <td>Deluxe Box</td>
                 <td>LB400</td>
+                <td>
+                    <input type="number">
+                </td>
                 <td>R20</td>
-                <td></td>
-                <td>0</td>
-                </tr>
+                <td>
+                    <input type="number" value="0">
+                </td>
+            </tr>
             <!--6th row-->
-                <td align="right">Total:</td>
-                <td>0</td>
-
+            <tr>
+                <td colspan="3"></td>
+                <td>Total:</td>
+                <td>
+                    <input type="number" value="0">
+                </td>
+            </tr>   
         </tbody>
     </table>
     <br>
     <br>
 
-
+<!--3rd activity-->
     <h1>Credit Card Details</h1>
     <table>
         <tbody>
